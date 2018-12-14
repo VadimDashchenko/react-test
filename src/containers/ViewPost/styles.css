@@ -1,0 +1,13 @@
+
+.ViewPost-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+.ViewPost{
+    display: flex;
+
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 10px;
+}

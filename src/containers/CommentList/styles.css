@@ -1,0 +1,7 @@
+.CommentsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-left: 30px;
+}
