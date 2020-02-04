@@ -7,7 +7,7 @@ export default store => next => action => {
     next(action);
 
     if( action.type === POSTS_FETCH_COMMENT) {
-        fetch('http://localhost:3001/comments')
+        fetch('https://simple-blog-api.crew.red/comments')
             .then((result) => result.json())
             .then(commentsList => {
                     next(fetchCommentSuccess(commentsList))
